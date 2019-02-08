@@ -1,0 +1,16 @@
+def version_bukkit = "1.13.1-R0.1-SNAPSHOT"
+def version_java = "1.8"
+
+apply plugin: 'java'
+
+sourceCompatibility = version_java
+targetCompatibility = version_java
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+}
+
+dependencies {
+    compileOnly "org.bukkit:bukkit:$version_bukkit"
+}

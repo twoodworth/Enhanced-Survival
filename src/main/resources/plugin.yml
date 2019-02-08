@@ -1,0 +1,7 @@
+name: "Enhanced Survival"
+author: "Ted Woodworth"
+version: "0.0.0"
+
+description: "$Enhanced survival"
+
+main: "me.tedwoodworth.enhancedsurvival.EnhancedSurvival"
