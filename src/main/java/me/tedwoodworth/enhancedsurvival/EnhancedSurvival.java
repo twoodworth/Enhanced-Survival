@@ -7,7 +7,7 @@ public class EnhancedSurvival extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Code run when the plugin is enabled
+        // Code run when the plugin is enabled.
 
         System.out.println("Hello, world!");
 
@@ -17,7 +17,7 @@ public class EnhancedSurvival extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        // Code run when the plugin is disabled
+        // Code run when the plugin is disabled.
 
         System.out.println("Goodbye, world!");
     }
