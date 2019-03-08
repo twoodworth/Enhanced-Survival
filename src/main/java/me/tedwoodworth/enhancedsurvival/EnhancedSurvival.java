@@ -16,7 +16,7 @@ public class EnhancedSurvival extends JavaPlugin {
         Bukkit.getPluginManager().registerEvents(new Listeners(), this);
 
 
-        SleepManager sleepManager=new SleepManager();
+        SleepManager sleepManager=new SleepManager(this);
     sleepManager.setup();
     }
 

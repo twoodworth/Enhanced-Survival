@@ -1,9 +1,17 @@
 package me.tedwoodworth.enhancedsurvival.sleep;
 
-public class SleepManager {
+import org.bukkit.plugin.Plugin;
 
-    public void setup(){
-        SleepRegenTimer sleepRegenTimer=new SleepRegenTimer();
+public class SleepManager {
+    private Plugin plugin;
+
+    public SleepManager(Plugin plugin) {
+        this.plugin = plugin;
+    }
+
+
+    public void setup() {
+        SleepRegenTimer sleepRegenTimer = new SleepRegenTimer(plugin);
         sleepRegenTimer.start();
     }
 
